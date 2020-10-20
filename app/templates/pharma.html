@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pharma online</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/pharma.css')}}">
+        <style type = "text/css">
+            h1{text-align:center}
+            body{background-color:rgb(0, 255, 0)}
+            img{padding-left:100px; }
+            h3{padding-left:200px;}
+            .primeira-frase{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+                margin-left: -300px;
+                text-align: center;
+                margin-top: -100px;
+            
+            }
+
+
+        
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Farmácias</h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <a href = "medpaguemenos" target = "_self"><img src = "{{ url_for('static', filename='css/fotos/paguemenos2.jpg') }}"/></a>
+        <div class='primeira-frase'>
+            <p>Farmácia Pague Menos - Cajazeiras<br/>
+                Telefone: (83)8531-2660
+                            
+            </p>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <a href = "medsantamaria" target = "_self"><img src = "{{ url_for('static', filename='css/fotos/farmácia Santa Maria3.jpg') }}"/></a>
+        <div class='primeira-frase'>
+            <p>Farmácia Santa Maria - Cajazeiras<br/>
+                Telefone: (83)3531-4544
+
+            </p>
+        
+        
+        
+
+    </body>
+</html>

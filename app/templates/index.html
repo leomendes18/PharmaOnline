@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pharma online</title>
+        <style type = "text/css">
+            img{
+                padding-left:700px;
+                margin-top:0px;
+            }
+            h1{text-align:center;}
+            body{background-color:rgb(5, 255, 5);}
+            h2{text-indent:50px;}
+            a{color:red;}
+            .PB{padding-left:245px; margin-top:-40px;}
+            .em-casa{
+                padding-left:700px;
+                margin-top:-15px;
+                width:490px;
+            }
+
+            
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Pharma online</h1>
+        <br/>
+        <h2>Estado disponível:</h2>
+        <div class = 'PB'>
+            <a href = 'pharma'>PB</a>
+        </div>
+        <img src = "{{ url_for('static', filename='css/fotos/image-remove.png') }}"/>
+        <img class = 'em-casa' src = "{{ url_for('static', filename='css/fotos/medicamento-em-casa2-remove.png') }}"/>
+        
+
+    </body>
+
+
+</html>

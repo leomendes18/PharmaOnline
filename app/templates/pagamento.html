@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pharma online</title>
+        <style type = "text/css">
+            body{background-color:rgb(0, 255, 0)}
+            h1{text-align:center;}
+            img{width:180px; padding-left:550px;}
+            .troco{padding-left:480px;}
+            .cartão{padding-left:600px;}
+            .nome-debito{
+                padding-left:720px;
+                margin-top:-22px;
+            }
+            .debito{
+                padding-left:680px;
+                margin-top:-38px;
+            }
+            .crédito{
+                padding-left:520px;
+                margin-top:-23px;
+            }
+            .sem-troco{
+                padding-left:520px;
+                margin-top:-25px;
+            }
+            .espaço-troco{
+                padding-left:600px;
+                margin-top:-43px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Pagamento</h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class = 'troco'>
+            <input name = 'b1'type="radio">
+            
+        </div>
+        <h2 class = 'sem-troco'>Troco</h2>
+        <div class = 'espaço-troco'>
+            <input type="text" id="fname" name="fname"><br><br>
+        </div>
+        <br/>
+        <br/>
+        <h2 class = 'cartão'>Cartão</h2>
+        <br/>
+        <br/>
+        
+        <div class = 'troco'>
+            <input name = 'b1'type="radio">
+            
+        </div>
+        <h3 class = 'crédito'>Crédito</h3>
+        <div class = 'debito'>
+            <input name = 'b1'type="radio">   
+        </div>
+        <h3 class = 'nome-debito'>Débito</h3>
+        <br/>
+        <br/>
+        <br/>
+        <a href = 'finalização'><img src = "{{ url_for('static', filename='css/fotos/finlizar.png') }}"/></a>
+    </body>
+</html>
